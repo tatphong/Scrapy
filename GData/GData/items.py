@@ -11,6 +11,7 @@ class GdataItem(scrapy.Item):
     # name = scrapy.Field()
     pass
 
+
 class serverItem(scrapy.Item):
     title = scrapy.Field()
     cpu = scrapy.Field()
@@ -18,3 +19,20 @@ class serverItem(scrapy.Item):
     ssd = scrapy.Field()
     thue = scrapy.Field()
     price = scrapy.Field()
+
+
+class ColocationItem(scrapy.Item):
+    name = scrapy.Field()
+    price = scrapy.Field()
+    spacerack = scrapy.Field()
+    electric = scrapy.Field()
+    ip = scrapy.Field()
+    datatransfer = scrapy.Field()
+    bandwidthnix = scrapy.Field()
+    bandwidthnation = scrapy.Field()
+    port = scrapy.Field()
+    online = scrapy.Field()
+    security = scrapy.Field()
+    technique = scrapy.Field()
+    initprice = scrapy.Field()
+    server = scrapy.Field()

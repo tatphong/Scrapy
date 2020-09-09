@@ -10,3 +10,8 @@ class WebCompanyItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+
+class CompanyInfoItem(scrapy.Item):
+    name = scrapy.Field()
+    url = scrapy.Field()
