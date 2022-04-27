@@ -13,7 +13,7 @@ class LoginSpider(scrapy.Spider):
                             formdata = {
                                 # 'csrf_token': csrf_token,
                                 'username': "tattranphong",
-                                'password': "13760119phong"
+                                'password': ""
                             },
                             callback=self.parse_after_login)
 
